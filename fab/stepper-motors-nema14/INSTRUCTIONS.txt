@@ -1,0 +1,20 @@
+
+LASER CUTTING
+
+>> Plywood with thickness of 6 mm
+
+ASSEMBLY STEPS
+
+1) Prepare the TRUNC by flush mounting parts C in the slots of part B.
+
+2) Then, fix on the BASIS by flush mounting the TRUNC in the slots of part A.
+
+3) Then, use nuts and bolts (M3) to fix part A at the top of part B.
+
+NOTES
+
+* Files edited from Inkscape
+
+* DXF files converted using MiConv.com
+
+
