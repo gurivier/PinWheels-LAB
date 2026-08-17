@@ -76,7 +76,7 @@ Releases are available from [releases list](https://github.com/gurivier/PinWheel
 Print general help page: `python3 pinwheels_lab.run.py -h`
 
 Print a command's help: `python3 pinwheels_lab.run.py <command> -h`
-    * Available commands: `mqtt`, `prompt`, `demo`
+* Available commands: `mqtt`, `prompt`, `demo`
 
 ## Author
 
