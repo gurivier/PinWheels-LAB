@@ -9,12 +9,11 @@ ASSEMBLY STEPS
 
 2) Then, fix on the BASIS by flush mounting the TRUNC in the slots of part A.
 
-3) Then, use nuts and bolts (M3) to fix part A at the top of part B.
+3) Then, use nuts and bolts (M3) to fix part A at the top front of part B.
 
 NOTES
 
 * Files edited from Inkscape
 
 * DXF files converted using MiConv.com
-
 

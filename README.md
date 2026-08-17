@@ -15,16 +15,16 @@ _Bring an ambient display in the classroom!_
 
 ### Prerequisites
 
-* Python &ge; 3.15 is required ([downloads](https://www.python.org/downloads/)):
+* Python &ge; 3.15 is required ([downloads](https://www.python.org/downloads/))
   * The controller has been tested on Python version 3.15.5.
 
-* Eclipse Mosquitto server ([downloads](https://mosquitto.org))
+* Eclipse Mosquitto server &ge; 2.0 ([downloads](https://mosquitto.org))
     * The controller has been tested with Mosquitto version 2.0.21 and Callback API version 2
-    * Check configuration in file /etc/mosquitto/mosquitto.conf:
+    * Check configuration in mosquitto.conf file (e.g., `/etc/mosquitto/mosquitto.conf`):
         * `listener 1883 0.0.0.0`
         * `allow_anonymous true`
 
-* Arduino IDE 1.8
+* Arduino IDE &ge; 1.8 ([downloads](https://docs.arduino.cc/software/ide/))
   * The driver has been tested on Arduino IDE 1.8.19
   * Packages:
       * digitalWriteFast 1.2.0
@@ -33,13 +33,13 @@ _Bring an ambient display in the classroom!_
 ### Hardware requirements
 
 * Fabrication
-  * [2×]: Plywood planks of 6-mm thickness (300 × 600 mm)
+  * [2×] Plywood planks of 6-mm thickness (300 × 600 mm)
   
 * Mechanics
   * [4×] Nuts and bolts: M3 L16
   * [4×] Magnets
   * [4×] Collars: D5
-  * [16×] Bolts: M3 L16
+  * [16×] Bolts: M3 L10
 
 * Mechatronics
   * [4×] Nema14 stepper motors: 14HS11-1004S
@@ -49,15 +49,15 @@ _Bring an ambient display in the classroom!_
   * [1×] Arduino Nano
   * [4×] Capacitors: 100 µF
   * [3×] Breadboards: 170 points (55 × 30 mm)
-  * [1×] Terminal block: 2 ways
-  * [1x] Power Supply: 18V 2A
+  * [1×] Two-way terminal block
+  * [1x] Power supply: 18V 2A
 
 * Computers
-  * [0×, 1×, or 2×] Raspberry Pi 3 ou 4 (see five [possible setups](./doc/communication/communication-diagram.pdf))
+  * [0×, 1×, or 2×] Raspberry Pi 3 ou 4 (see five [possible setups](./doc/communication/communication-diagram.svg))
   * [1×] USB adapter or conversion cable
     * If Arduino Nano "Genuine" or "Clone": Type-A / Mini Type-B
     * If Seeduino Nano: Type-A / Type-C
-  * [1×] USB extension cable: Type-A / Type-A (e.g., 1 m)
+  * [1×] USB extension cable: Type-A / Type-A (e.g., length of 1 m)
 
 ### Installation
 
@@ -75,7 +75,7 @@ Releases are available from [releases list](https://github.com/gurivier/PinWheel
 
 Print general help page: `python3 pinwheels_lab.run.py -h`
 
-Print a command's help: `python3 pinwheels_lab.run.py <command> -h` (Available commands: mqtt, prompt, demo)
+Print a command's help: `python3 pinwheels_lab.run.py <command> -h` (Available commands: `mqtt`, `prompt`, `demo`)
 
 ## Author
 
@@ -89,13 +89,13 @@ Fabrication files are released under the [CC BY-SA 4.0](https://creativecommons.
 
 Documentation is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-## Versions History
+## Versions' History
 
 * 0.9.0 (2026-08-16): First version
   * This first publication includes:
-     * doc/: documentation for electronics (wiring), communication (5 possible setups), hardware (photos of the device), and classroom (setup's description for students)
-     * fab/: files for printing and folding pinwheels from paper sheets (folding patterns), and fabrication of wooden parts by laser cutting (SVG, DXF, and PS files) for NEMA14 stepper motors
-     * src/: the source files for the Python controller and the C++ Arduino driver
+     * `doc/`: documentation for electronics (wiring), communication (5 possible setups), hardware (photos of the device), and classroom (setup's description for students)
+     * `fab/`: files for printing and folding pinwheels from paper sheets (folding patterns), and fabrication of wooden parts by laser cutting (SVG, DXF, and PS files) for NEMA14 stepper motors
+     * `src/`: the source files for the Python controller and the C++ Arduino driver
 
 ---
 [![CC BY-SA 4.0](./doc/img/by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/) Guillaume Rivière, 2021-2026, [ESTIA](https://www.estia.fr), France.
