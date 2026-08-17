@@ -3,7 +3,7 @@
 
 ![Photo of a PinWheels@LAB specimen built in March 2023.](./doc/hardware/photos/2026-08-16/resized_x600/pinwheels@lab_nema14_steppers_view_front.jpg)
 
-**PinWheels@LAB** is a display device that rotates four pinwheels to convey information ambiently. This small device, that teachers can bring into the classroom or install in school labs, is a tribute to the PinWheels installation<sup>(1)</sup> from the MIT Tangible Media Lab. Beyond extending Python programming lessons to data treatment and IoT communication, PinWheels@LAB enables students' thinking about innovative ways to convey information and to feel physical data representation in the classroom.
+**PinWheels@LAB** is a display device that rotates four pinwheels to convey information ambiently. This small device, that teachers can bring into the classroom or install in school labs, is a tribute to the PinWheels installation<sup>(1)</sup> from the MIT Tangible Media Lab. Beyond extending Python programming lessons to data treatment and IoT communication, PinWheels@LAB enables students' thinking about innovative ways to convey information and to feel physical data representation in their classroom.
 
 (1) Hiroshi Ishii, Sandia Ren, and Phil Frei. 2001. Pinwheels: visualizing information flow in an architectural space. In CHI '01 Extended Abstracts on Human Factors in Computing Systems (CHI EA '01). Association for Computing Machinery, New York, NY, USA, 111–112. [https://doi.org/10.1145/634067.634135](https://doi.org/10.1145/634067.634135)
 
