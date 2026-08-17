@@ -7,7 +7,7 @@
 
 (1) Hiroshi Ishii, Sandia Ren, and Phil Frei. 2001. Pinwheels: visualizing information flow in an architectural space. In CHI '01 Extended Abstracts on Human Factors in Computing Systems (CHI EA '01). Association for Computing Machinery, New York, NY, USA, 111–112. [https://doi.org/10.1145/634067.634135](https://doi.org/10.1145/634067.634135)
 
-![Overview of the communication layers of PinWheels@LAB in a school lab: the student's laptop runs an application that sends messages to an MQTT brocker, which then distributes this message to PinWheels@LAB's Python controller on the teacher's laptop. Then, the controller sends the message to PinWheels@LAB's microcontroller driver, that enables the rotation of four motors.](./doc/img/school-lab-setup1.png)
+![Overview of the communication layers of PinWheels@LAB in a school lab: the student's laptop runs an application that sends messages to an MQTT brocker, which then distributes this message to PinWheels@LAB's Python controller on the teacher's laptop. Then, the controller sends the message to PinWheels@LAB's microcontroller driver, that enables the rotation of four motors.](./doc/img/school-lab-setup1.jpg)
 
 _Bring an ambient display in the classroom!_
 
