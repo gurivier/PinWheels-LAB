@@ -20,7 +20,7 @@ _Bring an ambient display in the classroom!_
 
 * Eclipse Mosquitto server &ge; 2.0 ([downloads](https://mosquitto.org))
     * The controller has been tested with Mosquitto version 2.0.21 and Callback API version 2
-    * Check configuration in mosquitto.conf file (e.g., `/etc/mosquitto/mosquitto.conf`):
+    * Check configuration in the mosquitto.conf file (e.g., `/etc/mosquitto/mosquitto.conf`):
         * `listener 1883 0.0.0.0`
         * `allow_anonymous true`
 
